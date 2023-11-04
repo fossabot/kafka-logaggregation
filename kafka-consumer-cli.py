@@ -2,7 +2,7 @@ from confluent_kafka import Consumer, KafkaError
 
 # Configure the Kafka consumer
 conf = {
-    'bootstrap.servers': 'kafka-broker:9092',  # Update with your Kafka broker details
+    'bootstrap.servers': 'localhost:9092',  # Update with your Kafka broker details
     'group.id': 'my-consumer-group',  # Specify a consumer group ID
     'auto.offset.reset': 'earliest'  # Start reading from the beginning of the topic
 }
