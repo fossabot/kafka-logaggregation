@@ -1,0 +1,12 @@
+filebeat.inputs:
+  - type: log
+    enabled: true
+    paths:
+      - /var/log/nginx/access.log
+      - /var/log/mysql/mysql.log
+      - /var/log/syslog
+      - /var/log/ftp.log
+
+output.kafka:
+  hosts: ["kafka-broker-1:9092"]
+  topic: "logaggregation"
