@@ -8,5 +8,5 @@ filebeat.inputs:
       - /var/log/ftp.log
 
 output.kafka:
-  hosts: ["kafka-broker-1:9092"]
+  hosts: ["localhost:9092"]
   topic: "logaggregation"
