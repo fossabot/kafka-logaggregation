@@ -19,7 +19,7 @@ Before using these scripts, you need to have the following prerequisites in plac
 
 ## Kafka Message Producer
 
-The `kafka_producer.py` script allows you to produce messages to a Kafka topic. It sends messages to a specified Kafka topic on a Kafka broker.
+The `kafka_producer.py` script allows you to produce messages to a Kafka topic or  collect produced logs from  log sources  like nginx, mysql  ftp etc. It sends messages to a specified Kafka topic on a Kafka broker.
 
 **Usage:**
 
