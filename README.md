@@ -1,5 +1,7 @@
 markdown
 # Kafka Message Producer and Consumer with JSON Formatting
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fferamin108%2Fkafka-logaggregation.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fferamin108%2Fkafka-logaggregation?ref=badge_shield)
+
 
 This repository contains Python scripts for producing and consuming messages in a Kafka cluster, along with an example of how to format the output as JSON.
 
@@ -67,3 +69,7 @@ You can customize the JSON structure as needed.
 
 - For more advanced use cases, you can further process and analyze the data by integrating Elasticsearch and Kibana for visualization.
 - Remember to adjust configuration settings according to your environment and specific requirements.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fferamin108%2Fkafka-logaggregation.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fferamin108%2Fkafka-logaggregation?ref=badge_large)
